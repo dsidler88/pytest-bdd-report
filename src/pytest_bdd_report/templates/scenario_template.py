@@ -10,6 +10,7 @@ class ScenarioTemplate(BaseTemplate):
         super().__init__(self.path)
 
     def render_template(self, data: Scenario, rendered_steps: str = "") -> str:
+        video_path = f"/videos/{data.id}.webm"
         return self.template.render(
             id=data.id,
             name=data.name,
@@ -20,6 +21,7 @@ class ScenarioTemplate(BaseTemplate):
             description=data.description,
             tags=self._format_tags(data.tags),
             parameters=self._check_for_parameters(data.id),
+            video_path = video_path,
         )
 
     @staticmethod

@@ -1,3 +1,6 @@
+ok, don't do anything with this either.
+
+
 <div style="display: flex; font-family: 'Roboto', sans-serif;;
 align-items: center;
 gap: 0.5rem;
@@ -65,8 +68,14 @@ align-self: stretch;" class="{{status}}-scenario searchable" id="{{name}}">
                     <p style="white-space: pre-wrap;">{{error_message}}</p>
                 </div>
                 {%endif%}
-
-
-
+                <!-- Add Video Element -->
+                {% if video_path %}
+                <div class="video-container" style="margin-top: 1rem;">
+                    <video controls>
+                        <source src="{{ video_path }}" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                {% endif %}
             </div>
         </div>
