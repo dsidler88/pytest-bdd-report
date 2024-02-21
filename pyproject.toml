@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pytest_bdd_report"
 version = "1.0.0"
 authors = [
-  { name="Mattia Monti", email="mattiamonti2001@gmail.com" },
+  { name="Daniel Sidler", email="dsidler88@gmail.com" },
 ]
 description = "A pytest-bdd plugin for generating useful and informative BDD test reports"
 readme = "README.rst"

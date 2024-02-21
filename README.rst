@@ -2,39 +2,6 @@
 pytest-bdd-report
 =================
 
-.. image:: https://img.shields.io/pypi/v/pytest-bdd-report.svg
-    :target: https://pypi.org/project/pytest-bdd-report
-    :alt: PyPI version
-
-.. image:: https://img.shields.io/pypi/pyversions/pytest-bdd-report.svg
-    :target: https://pypi.org/project/pytest-bdd-report
-    :alt: Python versions
-
-.. image:: https://img.shields.io/github/actions/workflow/status/mattiamonti/pytest-bdd-report/automated%20tests.yml?logo=GitHub%20actions&label=Black%20formatting
-    :alt: GitHub Workflow Status (with event)
-
-.. image:: https://img.shields.io/github/actions/workflow/status/mattiamonti/pytest-bdd-report/automated%20tests.yml?logo=pytest&label=Automated%20Tests
-    :alt: GitHub Workflow Status (with event)
-
-
-
-The `pytest-bdd-report` plugin is a useful extension for the `pytest-bdd`_ library that allows you to generate 
-useful and informative reports for BDD (Behavior-Driven Development) tests developed using the pytest-bdd framework.
-This plugin facilitates the generation of clear and effective HTML reports, providing a comprehensible view of BDD test executions within the project.
-
-----
-
-This `pytest`_ plugin was generated with `Cookiecutter`_ along with `@hackebrot`_'s `cookiecutter-pytest-plugin`_ template.
-
-
-Features
---------
-
-* **Detailed BDD Reports**: The pytest-bdd-report plugin enables the generation of detailed reports for BDD tests executed using pytest-bdd. These reports clearly show the executed steps, tested scenarios, and obtained results.
-* **HTML Format**: The generated reports are presented in an intuitive and interactive HTML format. This allows developers, testers, and other team members to easily view the status of BDD tests.
-* **Easy Installation**: Installing the plugin is simple and fast. You can install it using the command `pip install pytest-bdd-report`.
-
-
 Requirements
 ------------
 
